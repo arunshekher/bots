@@ -81,7 +81,7 @@ class Bot:
         word = message_node.getBody()
         output= ""
         if  word :
-            if word=="hi" or word=="Hi" or word=="Hello" or word=="hello" :
+            if word.lower() == "hi" or word.lower() == "hello" :
                 output = "നമസ്കാരം! \n"    
                 output += "ഞാന്‍ സ്വതന്ത്ര മലയാളം കമ്പ്യൂട്ടിങ്ങിന്റെ ഇംഗ്ലീഷ് മലയാളം നിഘണ്ടു."+"\n"
                 output += "ഇംഗ്ലീഷ് വാക്കുകളുടെ അര്‍ത്ഥം കണ്ടുപിടിക്കാന്‍ എനിക്കു നിങ്ങളെ സഹായിക്കാന്‍ കഴിയും."+"\n"
